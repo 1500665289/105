@@ -1,0 +1,1188 @@
+﻿<ModifierDefs><List>
+	
+	<Modifier Name="Modifier_SpNpc_XXZS" Type="Normal">
+		<DisplayName>天命</DisplayName>
+		<Desc>来自修仙正史作者的特殊强化加持——天命之子。</Desc>
+		<MaxStack>999999999</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NpcLingMaxValue" AddV="10000"/>
+			<li Name="NpcLingMaxValue" BAddP="100"/>
+			
+			<li Name="NpcFight_FabaoPowerAddP" BAddP="0.01"/>
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="-0.00000001"/>
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="100"/>
+			<li Name="NpcFight_FabaoLingRecoverK" AddP="100"/>
+			<li Name="NpcFight_FabaoFlySpeedAddP" AddP="0.00001"/>
+			<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="0.00001"/>
+			<li Name="NpcFight_FabaoRepelDistanceAddV" AddV="0.001"/>
+			<li Name="NpcFight_FabaoRepelResistanceAddV" AddV="0.001"/>
+			
+			<li Name="NpcFight_SpellPowerAddP" AddP="0.1"/>
+			<li Name="NpcFight_SpellLingCostAddP" AddP="-10"/>
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="10"/>
+			<li Name="NpcFight_SpellCastTimeAddP" AddP="-10"/>
+			<li Name="RFS_FightSkillAP" AddV="-10"/>
+			<li Name="RFS_FightSkillRD" AddV="-10"/>
+			<li Name="RFS_FightSkillEX" AddV="-10"/>
+			
+			<li Name="NpcFight_FabaoNum" AddP="6"/>
+			<li Name="RFS_FB1" AddV="6"/>
+			<li Name="RFS_FB2" AddV="6"/>
+			<li Name="RFS_FB3" AddV="6"/>
+			<li Name="RFS_FB4" AddV="6"/>
+			
+			<li Name="NpcFight_ShieldConversionRate" AddV="0.000000000001"/>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddV="0.000000000001"/>
+			<li Name="NpcFight_ShieldResistanceTo" AddV="0.000000000001"/>
+			
+			<li Name="MindStateBaseValue" AddV="1"/>
+			<li Name="BaseEmotionAddV" AddV="1"/>
+			<li Name="MaxAge" AddV="1"/>
+			<li Name="ComfyTMax" AddV="1"/>
+			<li Name="ComfyTMin" AddV="-1"/>
+			<li Name="ToleranceTMax" AddV="1"/>
+			<li Name="ToleranceTMin" AddV="-1"/>
+			<li Name="NutritionWaterAutoRecover" AddP="1"/>
+			
+			<li Name="GongMatch_JinAddV" AddV="1"/>
+			<li Name="GongMatch_MuAddV" AddP="1"/>
+			<li Name="GongMatch_ShuiAddV" AddP="1"/>
+			<li Name="GongMatch_HuoAddV" AddP="1"/>
+			<li Name="GongMatch_TuAddV" AddP="1"/>
+			<li Name="GongMatch_NoneAddV" AddP="1"/>
+			
+			<li Name="NpcFight_BaseDodgeChance" AddV="-1"/>
+			<li Name="BodyPratice_BodyRecover" AddV="-1"/>
+			<li Name="BodyPratice_MaxZhenQi" AddV="-1"/>
+			<li Name="BodyPratice_RecoverZhenQi" AddV="-1"/>
+			<li Name="BodyPratice_CatchFaboValue" AddV="-1"/>
+			<li Name="BodyPratice_BodyStrong" AddV="-1"/>
+			<li Name="BodyPratice_QuenchingSpeed" AddV="-1"/>
+			<li Name="BodyPractice_Other_TunaAddp" AddV="-1"/>
+			<li Name="BodyPratice_SuperPartCostAddP" AddV="-1"/>
+			<li Name="BodyPratice_SuperPartRecoverAddP" AddV="-1"/>
+			<li Name="BodyPractice_SuperPartAddp_AtkPower" AddV="-1"/>
+			<li Name="BodyPractice_SuperPartAddp_DefPower" AddV="-1"/>
+			<li Name="BodyPractice_SuperPartAddp_AtkRate" AddV="-1"/>
+			<li Name="BodyPractice_SuperPartAddp_DefRate" AddV="-1"/>
+			<li Name="BodyPractice_SuperPartAddp_ArmorPenetration" AddV="-1"/>
+			<li Name="BodyPractice_SuperPartAddp_CatchFabao" AddV="-1"/>
+			<li Name="BodyPractice_AngerFireDuration" AddV="-1"/>
+			<li Name="BodyPractice_AngerFireEffectAddp" AddV="-1"/>
+			<li Name="BodyPractice_EatItemMaxRate" AddV="-1"/>
+			<li Name="BodyPractice_EatItemProduceCountAddp" AddV="-1"/>
+			<li Name="BodyPractice_MaxFoodAddtion" AddV="-1"/>
+			<li Name="" AddV="-1"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Modifier_Yaoshou_XXZS" Type="Normal">
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="YaoShou_BaseLing" AddP="99999"/>
+			<li Name="YaoShou_BaseAttack" AddP="99999"/>
+			<li Name="LingAbsorbSpeed" AddP="999999"/>
+			
+			<li Name="NutritionWaterAutoRecover" AddV="0.2"/>
+			
+			<li Name="NpcFight_ShieldConversionRate" AddV="999"/>
+			
+			<li Name="NpcFight_FabaoFlySpeedAddP" AddV="999"/>
+			<li Name="NpcFight_FabaoTurnSpeedAddP" AddV="999"/>
+			
+			<li Name="NpcFight_FabaoLingRecoverK" AddV="999"/>
+			
+			<li Name="YaoShou_BaseFabaoNum" AddP="9"/>
+			
+			<li Name="ToleranceTMin" AddV="-9999"/>
+			<li Name="ToleranceTMax" AddV="9999"/>
+		</Properties>
+	</Modifier>
+	
+	<Modifier Name="Modifier_KJJL_XXZS" Type="Normal">
+		<DisplayName>天命</DisplayName>
+		<Desc>来自修仙正史作者的特殊强化加持——天命之子。</Desc>
+		<MaxStack>0</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<BaseFive>10,10,10,10,10</BaseFive><!-- 五维属性 -->
+		<Skills>
+			<!-- 人物技能 -->
+			<li Name="DouFa" Level="110"/><!-- 斗法 -->
+			<li Name="DanQi" Level="110"/><!-- 丹器 -->
+			<li Name="Fabao" Level="110"/><!-- 法宝 -->
+			<li Name="FightSkill" Level="110"/><!-- 术法 -->
+			<li Name="Barrier" Level="110"/><!-- 护体 -->
+			<li Name="Fight" Level="110"/><!-- 御物 -->
+			<li Name="Qi" Level="110"/><!-- 气感 -->
+			<li Name="SocialContact" Level="110"/><!-- 社交 -->
+			<li Name="Medicine" Level="110"/><!-- 岐黄 -->
+			<li Name="Cooking" Level="110"/><!-- 烹饪 -->
+			<li Name="Building" Level="110"/><!-- 建筑 -->
+			<li Name="Farming" Level="110"/><!-- 农事 -->
+			<li Name="Mining" Level="110"/><!-- 采掘 -->
+			<li Name="Art" Level="110"/><!-- 巧匠 -->
+			<li Name="Manual" Level="110"/><!-- 制造 -->
+			<li Name="Medicine" LevelOver="10"/>
+			<li Name="Manual" LevelOver="10"/>
+			<li Name="FightSkill" LevelOver="10"/>
+			<li Name="Fabao" LevelOver="10"/>
+			<li Name="Barrier" LevelOver="10"/>
+			<li Name="Zhen" LevelOver="10"/>
+		</Skills>
+		<Properties>
+			<!-- 属性 -->
+			<li Name="MaxAge" AddV="999"/><!--寿元-->
+			<li Name="BaseEmotionAddV" AddV="99"/><!--心情基础值-->
+			<li Name="IntelligenceSkillEXPConstant" AddP="2"/><!--学习速度-->
+			<li Name="MoveSpeed" AddP="2"/><!--移动速度-->
+			<li Name="RecoveryPower" AddP="10"/><!--自然恢复力-->
+			<li Name="MagicDamageRecoveryPowerAddV" AddV="10"/><!--内门伤自然恢复力-->
+			<li Name="FatigueConsumeConstant" AddP="-0.9"/><!--精力消耗速度加成-->
+			<li Name="NutritionConsumeConstant" AddP="-0.9"/><!--食物消耗速度加成-->
+			<li Name="WaterConsumeConstant" AddP="-0.9"/><!--饮水消耗速度加成-->
+			<li Name="HappyConsumeConstant" AddP="-0.9"/><!--娱乐消耗速度加成-->
+			<li Name="ToleranceTMin" AddV="-999"/><!--最低极限温度-->
+			<li Name="ToleranceTMax" AddV="999"/><!--最高极限温度-->
+			<li Name="ComfyTMin" AddV="-999"/><!--最低舒适温度-->
+			<li Name="ComfyTMax" AddV="999"/><!--最高舒适温度-->
+			<!-- 工作 -->
+			<li Name="GlobalEfficiency" AddP="2"/><!--全局工作速度-->
+			<li Name="TreatSuccessChance" AddP="1"/><!--治疗成功率-->
+			<li Name="TreatmentExpectQuality" AddP="1"/><!-- 治疗效果 -->
+			<li Name="MiningYieldEfficiency" AddP="1"/><!--采掘技巧-->
+			<li Name="MadeQualityAddValue" AddP="2"/><!--制作附加值-->
+			<li Name="ManufactureExpectQuality" AddP="2"/><!--制造品质-->
+			<!-- 修仙 -->
+			<li Name="AbilityLvAddV" AddV="-200"/><!--道行-->
+			<li Name="GodPenaltyAddV" AddV="-99"/><!--天谴-->
+			<li Name="PotentialOfBasepracticeAddValue" AddV="3"/><!--潜力加值-->
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="2"/><!--修炼速度加成-->
+			<li Name="MindStateBaseValue" AddV="150"/><!--心境的基础值-->
+			<li Name="SpeedOfMindStateCoefficient" AddP="-0.9"/><!--心境稳定程度-->
+			<li Name="InspirationCoefficient" AddP="2"/><!--领悟悟性倍率，悟性越高的人越容易在生活中发生领悟。-->
+			<li Name="NpcLingMaxValue" BAddV="100000"/><!--灵气值-->
+			<li Name="LingAbsorbSpeed" AddV="500"/><!--灵气恢复-->
+			<li Name="FabaoMake_SpeedAddV" AddV="10"/><!--法宝炼制速度加值-->
+			<li Name="FabaoMake_SuccessRateAddV" AddV="10"/><!--法宝炼制成功率加值-->
+			<li Name="FabaoMake_LingInheritRateAddV" AddV="10"/><!--法宝炼制品阶加成，原材料灵气对法宝品阶加成的幅度。-->
+			<li Name="FabaoMake_QualityAddV" AddV="10"/><!--法宝炼制品质加值，成品品质的加值。-->
+			<li Name="FabaoMake_TwelveRateChance" AddV="100"/><!--神器炼成基础几率-->
+			<li Name="DanMake_SpeedAddV" AddV="10"/><!--丹药炼制速度-->
+			<li Name="DanMake_SuccessRate" AddV="10"/><!--炼丹技能炼制成功率，炼丹技能带来的成功率。-->
+			<li Name="DanMake_Yield" AddV="10"/><!--炼丹技能炼制产量加成，炼丹技能带来的产量加成。-->
+			<li Name="WorldMapFlySpeedAddP" AddV="5"/><!--历练速度-->
+			<!-- 战斗 -->
+			<li Name="NpcFight_BaseHitChance" AddV="1"/><!--战斗命中-->
+			<li Name="NpcFight_BaseDodgeChance" AddV="1"/><!--战斗闪避-->
+			<li Name="NpcFight_FabaoPowerAddP" BAddP="100"/><!--法宝威力加成-->
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="10"/><!--法宝灵气恢复速度加成-->
+			<li Name="NpcFight_FabaoCoolDownAddP" AddP="-0.5"/><!--法宝攻击间隔加成-->
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="10"/><!--法宝灵气最大值加成-->
+			<li Name="NpcFight_FabaoRepelDistanceAddV" AddV="10"/><!--法宝击退距离加成-->
+			<li Name="NpcFight_FabaoFlySpeedAddP" AddP="1"/><!--法宝飞行速度加成-->
+			<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="1"/><!--法宝转向速度加成-->
+			<li Name="NpcFight_FabaoRepelResistanceAddV" AddP="1"/><!--法宝击退距离抗性-->
+			<li Name="NpcFight_FabaoTrailingLengthAddP" AddP="2"/><!--法宝拖尾长度加成-->
+			<li Name="NpcFight_SpellLingCostAddP" AddP="-0.5"/><!--术法灵气消耗加成-->
+			<li Name="NpcFight_SpellCastTimeAddP" AddP="-0.5"/><!--术法吟唱时间加成-->
+			<li Name="NpcFight_SpellPowerAddP" AddP="100"/><!--术法伤害加成-->
+			<li Name="NpcFight_SpellCoolDownAddP" AddP="-0.5"/><!--术法冷却时间加成-->
+			<li Name="NpcFight_ShieldConversionRate" AddP="100"/><!--护盾强度加值-->
+			<li Name="NpcFight_ShieldConversionRateAddP" AddV="100"/><!--护盾强度加成-->
+			<li Name="NpcFight_FabaoNum" AddV="5"/>
+		</Properties>
+	</Modifier>
+	<Modifier Name="LG_Num" Type="Normal">
+		<DisplayName>灵根数量</DisplayName>
+		<Desc></Desc>
+		<MaxStack>9</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+	</Modifier> 
+	<Modifier Name="LG_Used" Type="Normal">
+		<DisplayName>灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+	</Modifier> 
+	<!--
+	<Modifier Name="LGDX_" Type="Normal">
+		<DisplayName>先天灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="" LevelOver=""/>
+		</Skills>
+		<Properties>
+			<li Name="" AddP=""/>
+		</Properties>
+		<LuaClassName>LGDX_</LuaClassName>
+	</Modifier> 
+	-->
+	<Modifier Name="LGDX_A1" Type="Normal">
+		<DisplayName>先天道灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<LuaClassName>LGDX_A1</LuaClassName>
+	</Modifier> 
+	<Modifier Name="LGDX_A2" Type="Normal">
+		<DisplayName>先天极灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="RFS_SK_Fabao" AddV="1000"/>
+			<li Name="RFS_SK_Barrier" AddV="1000"/>
+			<li Name="RFS_SK_FightSkill" AddV="1000"/>
+		</Properties>
+		<LuaClassName>LGDX_A2</LuaClassName>
+	</Modifier> 
+	<Modifier Name="LGDX_A3" Type="Normal">
+		<DisplayName>先天皇灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<LuaClassName>LGDX_A3</LuaClassName>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="600"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGDX_A4" Type="Normal">
+		<DisplayName>先天杀灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<LuaClassName>LGDX_A4</LuaClassName>
+	</Modifier> 
+	<Modifier Name="LGDX_A4s" Type="Normal">
+		<DisplayName>杀灵根</DisplayName>
+		<Desc>增加战斗技能等级，但会降低心境</Desc>
+		<MaxStack>100</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Fabao" LevelOver="1"/>
+			<li Name="FightSkill" LevelOver="1"/>
+			<li Name="Barrier" LevelOver="1"/>
+		</Skills>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="-10"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGDX_A5" Type="Normal">
+		<DisplayName>先天魔灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<LuaClassName>LGDX_A5</LuaClassName>
+	</Modifier> 
+	<Modifier Name="LGDX_A6" Type="Normal">
+		<DisplayName>先天星灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="RFS_FB1" AddV="0.5"/>
+			<li Name="RFS_FB2" AddV="0.5"/>
+			<li Name="RFS_FB3" AddV="0.5"/>
+			<li Name="RFS_FB4" AddV="0.5"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGDX_A7" Type="Normal">
+		<DisplayName>先天天灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<LuaClassName>LGDX_A7</LuaClassName>
+	</Modifier> 
+	<Modifier Name="LGDX_A7s" Type="Normal">
+		<DisplayName>天灵根</DisplayName>
+		<Desc>根据金丹等级增加战斗技能等级</Desc>
+		<MaxStack>100</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Fabao" LevelOver="1"/>
+			<li Name="FightSkill" LevelOver="1"/>
+			<li Name="Barrier" LevelOver="1"/>
+		</Skills>
+	</Modifier> 
+	<Modifier Name="LGDX_A8" Type="Normal">
+		<DisplayName>先天坤灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="BodyPratice_MaxZhenQi" AddV="99999"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGDX_A9" Type="Normal">
+		<DisplayName>先天梦灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<LuaClassName>LGDX_A9</LuaClassName>
+	</Modifier> 
+	<Modifier Name="LGDX_A10" Type="Normal">
+		<DisplayName>先天噬灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="BodyPractice_MaxFoodAddtion" AddV="9999"/>
+		</Properties>
+		<LuaClassName>LGDX_A10</LuaClassName>
+	</Modifier> 
+	<Modifier Name="LGDX_A11" Type="Normal">
+		<DisplayName>先天德灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<LuaClassName>LGDX_A11</LuaClassName>
+	</Modifier> 
+	<Modifier Name="LGDX_A11s" Type="Normal">
+		<DisplayName>德灵根</DisplayName>
+		<Desc>增加战斗技能等级与心境</Desc>
+		<MaxStack>100</MaxStack>
+		<Duration>-1</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Fabao" LevelOver="1"/>
+			<li Name="FightSkill" LevelOver="1"/>
+			<li Name="Barrier" LevelOver="1"/>
+		</Skills>
+		<Properties>
+			<li Name="MindStateBaseValue" AddV="10"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGDX_A12" Type="Normal">
+		<DisplayName>先天全灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="GongMatch_JinAddV" AddV="0.35"/>
+			<li Name="GongMatch_MuAddV" AddV="0.35"/>
+			<li Name="GongMatch_ShuiAddV" AddV="0.35"/>
+			<li Name="GongMatch_HuoAddV" AddV="0.35"/>
+			<li Name="GongMatch_TuAddV" AddV="0.35"/>
+			<li Name="GongMatch_NoneAddVAddV" AddV="0.35"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGDX_A13" Type="Normal">
+		<DisplayName>先天符灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<LuaClassName>LGDX_A13</LuaClassName>
+	</Modifier> 
+	<Modifier Name="LGDX_A14" Type="Normal">
+		<DisplayName>先天御灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Properties>
+			<li Name="NpcFight_FabaoNum" AddV="9"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGDX_A15" Type="Normal">
+		<DisplayName>先天法灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NpcFight_FightSkillSoul" AddV="9"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGDX_A16" Type="Normal">
+		<DisplayName>先天恒灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="MaxAge" AddV="99999"/>
+			<li Name="RecoveryPower" AddV="10"/>
+			<li Name="MagicDamageRecoveryPowerAddV" AddV="10"/>
+			<li Name="BodyPratice_BodyRecover" AddV="0.01"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGDX_A17" Type="Normal">
+		<DisplayName>先天神灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<LuaClassName>LGDX_A17</LuaClassName>
+	</Modifier> 
+	<Modifier Name="LGDX_A18" Type="Normal">
+		<DisplayName>天下剑主道</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="RFS_SK_Fabao" AddV="1000"/>
+		</Properties>
+		<LuaClassName>LGDX_A18</LuaClassName>
+	</Modifier> 
+	<Modifier Name="LGDX_A19" Type="Normal">
+		<DisplayName>万法之源祖</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="RFS_SK_FightSkill" AddV="1000"/>
+		</Properties>
+		<LuaClassName>LGDX_A19</LuaClassName>
+	</Modifier> 
+	<Modifier Name="LGDX_A20" Type="Normal">
+		<DisplayName>苍天在上魂</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="BodyPractice_SuperPartAtk_EquptMaxCount" AddV="3"/>
+			<li Name="BodyPractice_SuperPartBuff_EquptMaxCount" AddV="3"/>
+			<li Name="BodyPractice_SuperPartDef_EquptMaxCount" AddV="3"/>
+			<li Name="BodyPratice_SuperPartCostAddP" AddV="-1"/>
+		</Properties>
+		<LuaClassName>LGDX_A20</LuaClassName>
+	</Modifier> 
+	<Modifier Name="LGDX_S2" Type="Normal">
+		<DisplayName>天道破灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<LuaClassName>LGDX_S2</LuaClassName>
+	</Modifier> 
+	
+	
+	
+	
+	<Modifier Name="LGDX_D1" Type="Normal">
+		<DisplayName>先天金灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="GongMatch_JinAddV" AddV="0.25"/>
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="0.25"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGDX_D2" Type="Normal">
+		<DisplayName>先天木灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+		<li Name="GongMatch_MuAddV" AddV="0.25"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="0.25"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGDX_D3" Type="Normal">
+		<DisplayName>先天水灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+		<li Name="GongMatch_ShuiAddV" AddV="0.25"/>
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="0.25"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGDX_D4" Type="Normal">
+		<DisplayName>先天火灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+		<li Name="GongMatch_HuoAddV" AddV="0.25"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="0.25"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGDX_D5" Type="Normal">
+		<DisplayName>先天土灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+		<li Name="GongMatch_TuAddV" AddV="0.25"/>
+			<li Name="NpcFight_ShieldResistanceToTu" AddV="0.25"/>
+		</Properties>
+	</Modifier> 
+	
+	<Modifier Name="LGDX_D6" Type="Normal">
+		<DisplayName>先天元灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NpcLingMaxValue" BAddP="0.1"/>
+			<li Name="MaxAge" AddV="300"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGDX_S1" Type="Normal">
+		<DisplayName>天道空灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NpcLingMaxValue" BAddV="1000000"/>
+			<li Name="LingAbsorbSpeed" AddP="-999"/>
+		</Properties>
+		<LuaClassName>LGDX_S1</LuaClassName>
+	</Modifier> 
+	
+	
+	
+	
+	<Modifier Name="LGDX_D7" Type="Normal">
+		<DisplayName>先天剑灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Fabao" LevelOver="6"/>
+		</Skills>
+	</Modifier> 
+	<Modifier Name="LGDX_D8" Type="Normal">
+		<DisplayName>先天术灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="FightSkill" LevelOver="6"/>
+		</Skills>
+	</Modifier> 
+	<Modifier Name="LGDX_D9" Type="Normal">
+		<DisplayName>先天器灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Manual" LevelOver="6"/>
+		</Skills>
+	</Modifier> 
+	<Modifier Name="LGDX_D10" Type="Normal">
+		<DisplayName>先天丹灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Medicine" LevelOver="6"/>
+		</Skills>
+	</Modifier> 
+	<Modifier Name="LGDX_D11" Type="Normal">
+		<DisplayName>先天盾灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Barrier" LevelOver="6"/>
+		</Skills>
+	</Modifier> 
+	
+	
+
+	<Modifier Name="LGDX_D12" Type="Normal">
+		<DisplayName>极道金灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+		<li Name="GongMatch_JinAddV" AddV="0.5"/>
+			<li Name="NpcFight_ShieldResistanceToJin" AddV="0.5"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGDX_D13" Type="Normal">
+		<DisplayName>极道木灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+		<li Name="GongMatch_MuAddV" AddV="0.5"/>
+			<li Name="NpcFight_ShieldResistanceToMu" AddV="0.5"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="LGDX_D14" Type="Normal">
+		<DisplayName>极道水灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+		<li Name="GongMatch_ShuiAddV" AddV="0.5"/>
+			<li Name="NpcFight_ShieldResistanceToShui" AddV="0.5"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="LGDX_D15" Type="Normal">
+		<DisplayName>极道火灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+		<li Name="GongMatch_HuoAddV" AddV="0.5"/>
+			<li Name="NpcFight_ShieldResistanceToHuo" AddV="0.5"/>
+		</Properties>
+	</Modifier> 
+
+	<Modifier Name="LGDX_D16" Type="Normal">
+		<DisplayName>极道土灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+		<li Name="GongMatch_TuAddV" AddV="0.5"/>
+			<li Name="NpcFight_ShieldResistanceToTu" AddV="0.5"/>
+		</Properties>
+	</Modifier> 
+
+
+	<Modifier Name="LGDX_C1" Type="Normal">
+		<DisplayName>先天阳灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="3"/>
+		</Properties>
+		<LuaClassName>LGDX_C1</LuaClassName>
+	</Modifier> 
+	<Modifier Name="LGDX_C2" Type="Normal">
+		<DisplayName>先天阴灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="3"/>
+		</Properties>
+		<LuaClassName>LGDX_C2</LuaClassName>
+	</Modifier> 
+	<Modifier Name="LGDX_yy" Type="Normal">
+		<DisplayName>阴阳</DisplayName>
+		<Desc>阴阳显化，增加气感与心境</Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>300</Duration>
+		<Display>1</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Qi" LevelOver="10"/>
+		</Skills>
+		<Properties>
+			<li Name="SpeedOfMindStateCoefficient" AddP="-0.99"/>
+			<li Name="MindStateBaseValue" AddV="60"/>
+			<li Name="GodPenaltyAddV" AddV="-30"/>
+		</Properties>
+	</Modifier> 
+	
+	
+	<Modifier Name="LGDX_C3" Type="Normal">
+		<DisplayName>先天雷灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Fight" Level="15"/>
+		</Skills>
+		<Properties>
+			<li Name="GongMatch_JinAddV" AddV="0.15"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGDX_C4" Type="Normal">
+		<DisplayName>先天风灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NpcFight_BaseDodgeChance" AddV="0.1"/>
+			<li Name="MoveSpeed" AddV="30"/>
+			<li Name="GongMatch_MuAddV" AddV="0.15"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGDX_C5" Type="Normal">
+		<DisplayName>先天冰灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NpcFight_SpellCastTimeAddP" AddV="-0.2"/>
+			<li Name="BaseEmotionAddV" AddV="99"/>
+			<li Name="SpeedOfMindStateCoefficient" AddP="-0.99"/>
+			<li Name="MindStateBaseValue" AddV="60"/>
+			<li Name="GongMatch_ShuiAddV" AddV="0.15"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGDX_C6" Type="Normal">
+		<DisplayName>先天爆灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NpcFight_SpellPowerAddP" BAddP="0.25"/>
+			<li Name="NpcFight_SpellLingCostAddP" BAddP="0.5"/>
+			<li Name="GongMatch_HuoAddV" AddV="0.15"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGDX_C7" Type="Normal">
+		<DisplayName>先天山灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRate" BAddP="0.3"/>
+			<li Name="GongMatch_TuAddV" AddV="0.15"/>
+			<li Name="BodyPractice_SuperPartAddp_DefPower" AddV="0.5"/>
+			<li Name="BodyPractice_SuperPartAddv_DefPower" AddV="1000"/>
+		</Properties>
+	</Modifier> 
+
+
+	<Modifier Name="LGDX_C8" Type="Normal">
+		<DisplayName>乾相剑灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Fabao" LevelOver="10"/>
+		</Skills>
+	</Modifier> 
+	<Modifier Name="LGDX_C9" Type="Normal">
+		<DisplayName>坤相剑灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Fabao" LevelOver="3"/>
+		</Skills>
+		<LuaClassName>LGDX_C9</LuaClassName>
+	</Modifier> 
+	<Modifier Name="LGDX_C10" Type="Normal">
+		<DisplayName>震相剑灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Fabao" LevelOver="3"/>
+		</Skills>
+		<Properties>
+			<li Name="RFS_FB2" AddV="0.25"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGDX_C11" Type="Normal">
+		<DisplayName>巽相剑灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Fabao" LevelOver="3"/>
+		</Skills>
+		<Properties>
+			<li Name="RFS_FB4" AddV="0.25"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGDX_C12" Type="Normal">
+		<DisplayName>坎相剑灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Fabao" LevelOver="3"/>
+		</Skills>
+		<Properties>
+			<li Name="NpcFight_FabaoMaxLingAddP" BAddP="1"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGDX_C13" Type="Normal">
+		<DisplayName>离相剑灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Fabao" LevelOver="3"/>
+		</Skills>
+		<Properties>
+			<li Name="RFS_FB1" AddV="0.25"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGDX_C14" Type="Normal">
+		<DisplayName>艮相剑灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Fabao" LevelOver="3"/>
+		</Skills>
+		<Properties>
+			<li Name="RFS_FB3" AddV="0.25"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGDX_C15" Type="Normal">
+		<DisplayName>兑相剑灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Fabao" LevelOver="3"/>
+		</Skills>
+		<Properties>
+			<li Name="NpcFight_FabaoLingRecoverK" AddP="0.3"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGDX_C16" Type="Normal">
+		<DisplayName>乾相术灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="FightSkill" LevelOver="10"/>
+		</Skills>
+	</Modifier> 
+	<Modifier Name="LGDX_C17" Type="Normal">
+		<DisplayName>坤相术灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="FightSkill" LevelOver="3"/>
+		</Skills>
+		<Properties>
+			<li Name="RFS_FightSkillEX" AddV="0.2"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGDX_C18" Type="Normal">
+		<DisplayName>震相术灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="FightSkill" LevelOver="3"/>
+		</Skills>
+		<Properties>
+			<li Name="RFS_FightSkillAPV" AddV="0.08"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGDX_C19" Type="Normal">
+		<DisplayName>巽相术灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="FightSkill" LevelOver="3"/>
+		</Skills>
+		<Properties>
+			<li Name="NpcFight_FabaoMaxLingAddP" BAddP="-0.4"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGDX_C20" Type="Normal">
+		<DisplayName>坎相术灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="FightSkill" LevelOver="3"/>
+		</Skills>
+		<Properties>
+			<li Name="RFS_FightSkillRD" AddV="0.1"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGDX_C21" Type="Normal">
+		<DisplayName>离相术灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="FightSkill" LevelOver="3"/>
+		</Skills>
+		<Properties>
+			<li Name="NpcFight_SpellCastTimeAddP" AddV="-0.2"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGDX_C22" Type="Normal">
+		<DisplayName>艮相术灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="FightSkill" LevelOver="3"/>
+		</Skills>
+		<Properties>
+			<li Name="NpcFight_ShieldConversionRateAddP" AddP="0.4"/>
+		</Properties>
+	</Modifier> 
+	<Modifier Name="LGDX_C23" Type="Normal">
+		<DisplayName>兑相术灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="FightSkill" LevelOver="3"/>
+		</Skills>
+		<Properties>
+			<li Name="NpcFight_SpellCoolDownAddP" AddV="-0.2"/>
+		</Properties>
+	</Modifier>
+
+
+
+
+	<Modifier Name="LGDX_B1" Type="Normal">
+		<DisplayName>先天战灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Fight" LevelOver="10"/>
+		</Skills>
+	</Modifier>  
+	<Modifier Name="LGDX_B2" Type="Normal">
+		<DisplayName>先天蛮灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Qi" LevelOver="-10"/>
+		</Skills>
+		<Properties>
+			<li Name="BodyPractice_SuperPartAddp_AtkPower" AddV="0.5"/>
+		</Properties>
+	</Modifier>  
+	<Modifier Name="LGDX_B3" Type="Normal">
+		<DisplayName>先天荒灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Qi" LevelOver="-10"/>
+		</Skills>
+		<Properties>
+			<li Name="BodyPractice_SuperPartAddp_DefPower" AddV="0.5"/>
+			<li Name="BodyPractice_SuperPartAddp_DefRate" AddV="0.15"/>
+		</Properties>
+	</Modifier>  
+	<Modifier Name="LGDX_B4" Type="Normal">
+		<DisplayName>先天狄灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Qi" LevelOver="-10"/>
+		</Skills>
+		<Properties>
+			<li Name="BodyPractice_SuperPartAddp_CatchFabao" AddV="0.25"/>
+		</Properties>
+	</Modifier>  
+	<Modifier Name="LGDX_B5" Type="Normal">
+		<DisplayName>先天古灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Qi" LevelOver="-10"/>
+		</Skills>
+		<Properties>
+			<li Name="BodyPratice_QuenchingSpeed" AddP="1"/>
+		</Properties>
+	</Modifier>  
+	<Modifier Name="LGDX_B6" Type="Normal">
+		<DisplayName>先天绝灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Qi" LevelOver="-10"/>
+		</Skills>
+		<Properties>
+			<li Name="BodyPractice_SuperPartAddv_ArmorPenetration" AddV="0.25"/>
+		</Properties>
+	</Modifier>  
+	<Modifier Name="LGDX_B7" Type="Normal">
+		<DisplayName>先天吞灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Qi" LevelOver="-10"/>
+		</Skills>
+		<Properties>
+			<li Name="NutritionConsumeConstant" AddP="5"/>
+			<li Name="NutritionToJingYuanK" AddV="0.15"/>
+		</Properties>
+	</Modifier>  
+	<Modifier Name="LGDX_B8" Type="Normal">
+		<DisplayName>先天幻灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Qi" LevelOver="-10"/>
+		</Skills>
+		<Properties>
+			<li Name="BodyPractice_SuperPartAddp_AtkRate" AddV="0.15"/>
+			<li Name="NpcFight_BaseDodgeChance" AddV="0.15"/>
+		</Properties>
+	</Modifier>  
+	<Modifier Name="LGDX_B9" Type="Normal">
+		<DisplayName>先天霸灵根</DisplayName>
+		<Desc></Desc>
+		<MaxStack>1</MaxStack>
+		<Duration>-1</Duration>
+		<Display>0</Display>
+		<Sync>1</Sync>
+		<Skills>
+			<li Name="Qi" LevelOver="-10"/>
+		</Skills>
+		<Properties>
+			<li Name="BodyPratice_BodyStrong" AddV="10"/>
+		</Properties>
+	</Modifier>  
+</List></ModifierDefs>

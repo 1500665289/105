@@ -1,0 +1,80 @@
+﻿<Stories><List>
+		
+		
+
+		<Story Name="LGDX_GTLG"  Parent="BaseFillingStory">
+		<DisplayName>觉醒灵根</DisplayName>
+		<Desc>太极混元台流露出浩渺空玄之意，带着远古的气息，令人族修士感到亲切而又敬畏。</Desc>
+		<Selections>
+			<li>
+				<Display>开始觉醒</Display> 
+				<Tip>外门并未觉醒灵根</Tip>
+				<OKResult>
+				GameMain:GetMod("LGDX").GetLG1();
+				</OKResult>
+			</li>
+			<li>
+				<Display>再考虑一下</Display>
+				<OKResult>	
+				me:AddMsg("[NAME]感觉天时未到，决定再等等。");
+				</OKResult>
+			</li>
+		</Selections>
+		</Story>
+		
+
+		<Story Name="LGDX_UB"  Parent="BaseFillingStory">
+		<DisplayName>观察图画</DisplayName>
+		<Desc>浩渺空玄，仙魔大战，佛镇五兽，神仙殊途，长剑开天，黑影独坐天际。</Desc>
+		<Selections>
+			<li>
+				<Display>若有所悟</Display> 
+				<OKResult>
+				world:UnlockBuilding("TJHYT");
+				me:AddMsg("（现在已解锁奇观：太极混元台）");
+				</OKResult>
+			</li>
+		</Selections>
+		</Story>
+
+		<Story Name="LGDXSecrets1"  Parent="BaseFillingStory">
+		<DisplayName>第二登仙台？</DisplayName>
+		<Desc>天穹处一座宏伟的法坛虚影若隐若现，十多个身影在天空中激战，道法滔天，剑意逼人。</Desc>
+		<Selections>
+			<li>
+				<Display>凑热闹</Display> 
+				<Tip>这可是奇遇啊</Tip>
+				<OKResult>
+				local  k = me:RandomInt(1, 6);
+				if k == 1 then
+				me:AddMsg("[NAME]被 灵尊·十三 的一道长达数里的剑气蹭到，受伤甚重。");
+				end
+				if k == 2 then
+				me:AddMsg("[NAME]被 羽炎蛇·慕容阳天 的一道通天火柱蹭到，受伤甚重。");
+				end
+				if k == 3 then
+				me:AddMsg("[NAME]被 云中子·达云鹤 的一记星云符咒蹭到，受伤甚重。");
+				end
+				if k == 4 then
+				me:AddMsg("[NAME]被 天狼道人·树枝末端 的一颗天狼钉蹭到，受伤甚重。");
+				end
+				if k == 5 then
+				me:AddMsg("[NAME]被一道长达数里的剑气蹭到，受伤甚重。");
+				end
+				
+				me:AddDamgeFromCache(story.DamageCache,4,0.9);
+				</OKResult>
+			</li>
+			<li>
+				<Display>溜了溜了</Display>
+				<OKResult>	me:AddMsg("[NAME]自知天空中人乃是各种隐世级高手，哪怕在世真仙也不是对手。只能灰溜溜的离开。");
+				me:AddMsg("然而当[NAME]御剑飞行几十里后，发现自己身上多了一幅诡异的画。");
+				me:DropAwardItem("Item_TJHYT",1);
+				story:FinishSecret();
+				</OKResult>
+			</li>
+		</Selections>
+		</Story>
+		
+		
+</List></Stories>

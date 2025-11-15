@@ -1,0 +1,10 @@
+﻿<Experiences><List>
+	<Experience Name="Experiences_LGDX">
+		<DisplayName>太极混元台</DisplayName>
+		<Desc>你曾经获得过一个神奇的画作，上面描绘着一个叫做[color=#D06508]太极混元台[/color]的建筑。</Desc>
+		<Point>1</Point>
+		<Items>
+			<li Name= "Item_TJHYT" Count="1"/>
+		</Items>	
+	  </Experience>
+</List></Experiences>

@@ -1,0 +1,23 @@
+﻿<ThingDefs><List>
+	
+	<ThingDef Type="Item" Name="Item_TJHYT" Parent="MiBaoBase">
+	<ThingName>太极混元图</ThingName>
+	<TexPath>res\Sprs\object\object_shuahua01</TexPath>	
+	<Desc>一幅诡异的画作，里面的建筑仿佛可以投影出来。</Desc>
+	<Beauty>999</Beauty>
+	<Rate>26</Rate>
+	<ElementKind>None</ElementKind>
+	
+	<IllustratedHandLabel>Curiosity</IllustratedHandLabel>
+	<Item Lable="Other">
+	</Item>
+	<Element>
+		<Kind>None</Kind>
+	</Element>
+	<StoryBnts>
+		<li Name="查看" Desc="查看" Story="LGDX_UB" Cost="5" Icon="res/Sprs/ui/icon_hand"/>
+	</StoryBnts>
+	</ThingDef>
+	
+	
+</List></ThingDefs>

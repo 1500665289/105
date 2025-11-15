@@ -1,0 +1,340 @@
+﻿<FeatureDefs><List>
+	<!--
+	<Feature Name="N1" Type="Normal">
+		<DisplayName>样例</DisplayName>
+		<Desc>样例</Desc>
+		<HideInUI>1</HideInUI>
+		<Mutex>互斥特性
+				<li>CrippleLeft</li>
+				<li>CrippleRight</li>
+		</Mutex>
+		<BanRelations>
+				<li>Parent</li>
+		</BanRelations>
+		<Opposition> 对立特性
+			<li>StinkAllOver</li>
+			<li>Slovenly</li>
+		</Opposition>
+		<Close>亲近特性
+			<li>Cleanliness</li>
+		</Close>
+		<MoodBranch> 心情分支
+			<li Old="BedroomExpect8" New="BedroomExpect6"/>
+		</MoodBranch>
+		<ModifierDef>
+			<BaseFive>0,0,0,0,0</BaseFive>
+			<Properties>
+				<li Name="MoveSpeed" AddV="5" AddP="0.5"/>
+				<li Name="VisionRadius" AddP="-0.5"/>
+			</Properties>
+			<Skills>
+				<li Name="Building" Level="1"/>
+				<li Name="Mining" Level="2"/>
+			</Skills>
+			<BanBodyParts>
+				<li>LeftEye</li>
+			</BanBodyParts>
+			<BanJobs>
+				<li>Clean</li>
+				<li>Build</li>
+			</BanJobs>
+			<Damages>
+				<li Part="LeftThighbone" Damage="Scar" Value="0.5"/>
+			</Damages>
+			<Moods>
+				<li>Optimistic</li>
+			</Moods>
+			<GiveFavours>
+				<li>Scar</li>
+			</GiveFavours>
+			<GetFavours>
+				<li>Scar</li>
+			</GetFavours>
+		</ModifierDef>
+	</Feature> 
+	-->
+	<Feature Name="LGDX_D1" Type="Normal">
+		<DisplayName>先天金灵根</DisplayName>
+		<Desc>常见的五行灵根，增加对金属性灵气的功法匹配，亲和，抗性</Desc>
+	</Feature> 
+	<Feature Name="LGDX_D2" Type="Normal">
+		<DisplayName>先天木灵根</DisplayName>
+		<Desc>常见的五行灵根，增加对木属性灵气的功法匹配，亲和，抗性</Desc>
+	</Feature> 
+	<Feature Name="LGDX_D3" Type="Normal">
+		<DisplayName>先天水灵根</DisplayName>
+		<Desc>常见的五行灵根，增加对水属性灵气的功法匹配，亲和，抗性</Desc>
+	</Feature> 
+	<Feature Name="LGDX_D4" Type="Normal">
+		<DisplayName>先天火灵根</DisplayName>
+		<Desc>常见的五行灵根，增加对火属性灵气的功法匹配，亲和，抗性</Desc>
+	</Feature> 
+	<Feature Name="LGDX_D5" Type="Normal">
+		<DisplayName>先天土灵根</DisplayName>
+		<Desc>常见的五行灵根，增加对土属性灵气的功法匹配，亲和，抗性</Desc>
+	</Feature> 
+	<Feature Name="LGDX_D6" Type="Normal">
+		<DisplayName>先天元灵根</DisplayName>
+		<Desc>非常常见的均衡灵根，增加一点点灵气与寿命</Desc>
+	</Feature> 
+	<Feature Name="LGDX_D7" Type="Normal">
+		<DisplayName>先天剑灵根</DisplayName>
+		<Desc>常见的修道灵根，增加6级御器等级上限</Desc>
+	</Feature> 
+	<Feature Name="LGDX_D8" Type="Normal">
+		<DisplayName>先天术灵根</DisplayName>
+		<Desc>常见的修道灵根，增加6级术法等级上限</Desc>
+	</Feature> 
+	<Feature Name="LGDX_D9" Type="Normal">
+		<DisplayName>先天器灵根</DisplayName>
+		<Desc>常见的修道灵根，增加6级炼器等级上限</Desc>
+	</Feature> 
+	<Feature Name="LGDX_D10" Type="Normal">
+		<DisplayName>先天丹灵根</DisplayName>
+		<Desc>常见的修道灵根，增加6级炼丹等级上限</Desc>
+	</Feature> 
+	<Feature Name="LGDX_D11" Type="Normal">
+		<DisplayName>先天盾灵根</DisplayName>
+		<Desc>常见的修道灵根，增加6级护体等级上限</Desc>
+	</Feature> 
+	<Feature Name="LGDX_D12" Type="Normal">
+		<DisplayName>极道金灵根</DisplayName>
+		<Desc>纯粹的五行灵根，大量增加对金属性灵气的功法匹配，亲和，抗性</Desc>
+	</Feature> 
+	<Feature Name="LGDX_D13" Type="Normal">
+		<DisplayName>极道木灵根</DisplayName>
+		<Desc>纯粹的五行灵根，大量增加对木属性灵气的功法匹配，亲和，抗性</Desc>
+	</Feature> 
+	<Feature Name="LGDX_D14" Type="Normal">
+		<DisplayName>极道水灵根</DisplayName>
+		<Desc>纯粹的五行灵根，大量增加对水属性灵气的功法匹配，亲和，抗性</Desc>
+	</Feature> 
+	<Feature Name="LGDX_D15" Type="Normal">
+		<DisplayName>极道火灵根</DisplayName>
+		<Desc>纯粹的五行灵根，大量增加对火属性灵气的功法匹配，亲和，抗性</Desc>
+	</Feature> 
+	<Feature Name="LGDX_D16" Type="Normal">
+		<DisplayName>极道土灵根</DisplayName>
+		<Desc>纯粹的五行灵根，大量增加对土属性灵气的功法匹配，亲和，抗性</Desc>
+	</Feature> 
+	<Feature Name="LGDX_C1" Type="Normal">
+		<DisplayName>先天阳灵根</DisplayName>
+		<Desc>五行异灵根，白天增加大量修炼增益</Desc>
+	</Feature> 
+	<Feature Name="LGDX_C2" Type="Normal">
+		<DisplayName>先天阴灵根</DisplayName>
+		<Desc>五行异灵根，夜晚增加大量修炼增益</Desc>
+	</Feature> 
+	<Feature Name="LGDX_C3" Type="Normal">
+		<DisplayName>先天雷灵根</DisplayName>
+		<Desc>五行异灵根，增加少量金五行契合，大量战斗等级</Desc>
+	</Feature> 
+	<Feature Name="LGDX_C4" Type="Normal">
+		<DisplayName>先天风灵根</DisplayName>
+		<Desc>五行异灵根，增加少量木五行契合，移速与闪避</Desc>
+	</Feature> 
+	<Feature Name="LGDX_C5" Type="Normal">
+		<DisplayName>先天冰灵根</DisplayName>
+		<Desc>五行异灵根，增加少量水五行契合，心境如冰，法术调息更快</Desc>
+	</Feature> 
+	<Feature Name="LGDX_C6" Type="Normal">
+		<DisplayName>先天爆灵根</DisplayName>
+		<Desc>五行异灵根，增加少量火五行契合，法术威力与消耗</Desc>
+	</Feature> 
+	<Feature Name="LGDX_C7" Type="Normal">
+		<DisplayName>先天山灵根</DisplayName>
+		<Desc>五行异灵根，增加少量土五行契合，护盾与坚韧</Desc>
+	</Feature> 
+	<Feature Name="LGDX_C8" Type="Normal">
+		<DisplayName>乾相剑灵根</DisplayName>
+		<Desc>八卦衍化的剑道灵根，增加10级御器等级上限</Desc>
+	</Feature> 
+	<Feature Name="LGDX_C9" Type="Normal">
+		<DisplayName>坤相剑灵根</DisplayName>
+		<Desc>八卦衍化的剑道灵根，增加3级御器等级上限，更快的法宝羁绊加成</Desc>
+	</Feature> 
+	<Feature Name="LGDX_C10" Type="Normal">
+		<DisplayName>震相剑灵根</DisplayName>
+		<Desc>八卦衍化的剑道灵根，增加3级御器等级上限，25%法宝锋锐加成</Desc>
+	</Feature> 
+	<Feature Name="LGDX_C11" Type="Normal">
+		<DisplayName>巽相剑灵根</DisplayName>
+		<Desc>八卦衍化的剑道灵根，增加3级御器等级上限，25%法宝灵活加成</Desc>
+	</Feature> 
+	<Feature Name="LGDX_C12" Type="Normal">
+		<DisplayName>坎相剑灵根</DisplayName>
+		<Desc>八卦衍化的剑道灵根，增加3级御器等级上限，100%法宝灵气加成</Desc>
+	</Feature> 
+	<Feature Name="LGDX_C13" Type="Normal">
+		<DisplayName>离相剑灵根</DisplayName>
+		<Desc>八卦衍化的剑道灵根，增加3级御器等级上限，25%法宝灵压加成</Desc>
+	</Feature> 
+	<Feature Name="LGDX_C14" Type="Normal">
+		<DisplayName>艮相剑灵根</DisplayName>
+		<Desc>八卦衍化的剑道灵根，增加3级御器等级上限，25%法宝坚硬加成</Desc>
+	</Feature> 
+	<Feature Name="LGDX_C15" Type="Normal">
+		<DisplayName>兑相剑灵根</DisplayName>
+		<Desc>八卦衍化的剑道灵根，增加3级御器等级上限，30%法宝回灵倍率加成</Desc>
+	</Feature> 
+	<Feature Name="LGDX_C16" Type="Normal">
+		<DisplayName>乾相术灵根</DisplayName>
+		<Desc>八卦衍化的术道灵根，增加10级术法等级上限</Desc>
+	</Feature> 
+	<Feature Name="LGDX_C17" Type="Normal">
+		<DisplayName>坤相术灵根</DisplayName>
+		<Desc>八卦衍化的术道灵根，增加3级术法等级上限，20%五行法术爆发</Desc>
+	</Feature> 
+	<Feature Name="LGDX_C18" Type="Normal">
+		<DisplayName>震相术灵根</DisplayName>
+		<Desc>八卦衍化的术道灵根，增加3级术法等级上限，8%法术穿透</Desc>
+	</Feature> 
+	<Feature Name="LGDX_C19" Type="Normal">
+		<DisplayName>巽相术灵根</DisplayName>
+		<Desc>八卦衍化的术道灵根，增加3级术法等级上限，大量减少法宝灵气</Desc>
+	</Feature> 
+	<Feature Name="LGDX_C20" Type="Normal">
+		<DisplayName>离坎相术灵根</DisplayName>
+		<Desc>八卦衍化的术道灵根，增加3级术法等级上限，10%法术迸发</Desc>
+	</Feature> 
+	<Feature Name="LGDX_C21" Type="Normal">
+		<DisplayName>坎相术灵根</DisplayName>
+		<Desc>八卦衍化的术道灵根，增加3级术法等级上限，减少20%法术吟唱</Desc>
+	</Feature> 
+	<Feature Name="LGDX_C22" Type="Normal">
+		<DisplayName>艮相术灵根</DisplayName>
+		<Desc>八卦衍化的术道灵根，增加3级术法等级上限，40%灵气强度</Desc>
+	</Feature> 
+	<Feature Name="LGDX_C23" Type="Normal">
+		<DisplayName>兑相术灵根</DisplayName>
+		<Desc>八卦衍化的术道灵根，增加3级术法等级上限，减少20%法术冷却</Desc>
+	</Feature> 
+	<Feature Name="LGDX_B1" Type="Normal">
+		<DisplayName>先天战灵根</DisplayName>
+		<Desc>不是灵根，更像是一种气运，突破战斗上限10级</Desc>
+	</Feature> 
+	<Feature Name="LGDX_B2" Type="Normal">
+		<DisplayName>先天蛮灵根</DisplayName>
+		<Desc>不是灵根，更像是一种气运，甚至隔绝了灵气，增加50%秘体威力</Desc>
+	</Feature> 
+	<Feature Name="LGDX_B3" Type="Normal">
+		<DisplayName>先天荒灵根</DisplayName>
+		<Desc>不是灵根，更像是一种气运，甚至隔绝了灵气，增加50%秘体坚韧与防御成功率</Desc>
+	</Feature> 
+	<Feature Name="LGDX_B4" Type="Normal">
+		<DisplayName>先天狄灵根</DisplayName>
+		<Desc>不是灵根，更像是一种气运，甚至隔绝了灵气，增加25%镇压法宝概率</Desc>
+	</Feature> 
+	<Feature Name="LGDX_B5" Type="Normal">
+		<DisplayName>先天古灵根</DisplayName>
+		<Desc>不是灵根，更像是一种气运，甚至隔绝了灵气，大量增加淬体速度</Desc>
+	</Feature> 
+	<Feature Name="LGDX_B6" Type="Normal">
+		<DisplayName>先天绝灵根</DisplayName>
+		<Desc>不是灵根，更像是一种气运，甚至隔绝了灵气，大量增加灵气穿透</Desc>
+	</Feature> 
+	<Feature Name="LGDX_B7" Type="Normal">
+		<DisplayName>先天吞灵根</DisplayName>
+		<Desc>不是灵根，更像是一种气运，甚至隔绝了灵气，大量增加饥饿速度与精元转换</Desc>
+	</Feature> 
+	<Feature Name="LGDX_B8" Type="Normal">
+		<DisplayName>先天幻灵根</DisplayName>
+		<Desc>不是灵根，更像是一种气运，甚至隔绝了灵气，大量增加闪避与命中</Desc>
+	</Feature> 
+	<Feature Name="LGDX_B9" Type="Normal">
+		<DisplayName>先天霸灵根</DisplayName>
+		<Desc>不是灵根，更像是一种气运，甚至隔绝了灵气，大量增加身体强度</Desc>
+	</Feature> 
+	<Feature Name="LGDX_B" Type="Normal">
+		<DisplayName>先天斩灵根</DisplayName>
+		<Desc>稀有的五行奇灵根，金五行往原初灵气靠近的特殊灵根，亲近金与无属性灵气，司锋锐</Desc>
+	</Feature> 
+	<Feature Name="LGDX_A1" Type="Backstory">
+		<DisplayName>先天道灵根</DisplayName>
+		<Desc>天道显化的灵根，可以学习无限的野法</Desc>
+	</Feature> 
+	<Feature Name="LGDX_A2" Type="Backstory">
+		<DisplayName>先天极灵根</DisplayName>
+		<Desc>天道显化的灵根，可以升级无限的技能。但是，技能等级越高，越容易被天道抹杀。</Desc>
+	</Feature> 
+	<Feature Name="LGDX_A3" Type="Backstory">
+		<DisplayName>先天皇灵根</DisplayName>
+		<Desc>天道显化的灵根，可以拥有无限心境与神民</Desc>
+	</Feature> 
+	<Feature Name="LGDX_A4" Type="Backstory">
+		<DisplayName>先天杀灵根</DisplayName>
+		<Desc>天道显化的灵根，天谴越高，战力越高</Desc>
+	</Feature> 
+	<Feature Name="LGDX_A5" Type="Backstory">
+		<DisplayName>先天魔灵根</DisplayName>
+		<Desc>天道显化的灵根，入魔</Desc>
+	</Feature> 
+	<Feature Name="LGDX_A6" Type="Backstory">
+		<DisplayName>先天星灵根</DisplayName>
+		<Desc>天道显化的灵根，御宝如星海坠落，加强所有法宝额外属性</Desc>
+	</Feature> 
+	<Feature Name="LGDX_A7" Type="Backstory">
+		<DisplayName>先天天灵根</DisplayName>
+		<Desc>天道显化的灵根，金丹越高级，战力越高</Desc>
+	</Feature> 
+	<Feature Name="LGDX_A8" Type="Backstory">
+		<DisplayName>先天坤灵根</DisplayName>
+		<Desc>天道显化的灵根，只要脚踩大地，就拥有无限的武夫真气</Desc>
+	</Feature> 
+	<Feature Name="LGDX_A9" Type="Backstory">
+		<DisplayName>先天梦灵根</DisplayName>
+		<Desc>天道显化的灵根，在睡梦之中提高修为，修为越高效果越强</Desc>
+	</Feature> 
+	<Feature Name="LGDX_A10" Type="Backstory">
+		<DisplayName>先天噬灵根</DisplayName>
+		<Desc>天道显化的灵根，食量无限的同时，所有丹药的耐药性锁定为90%</Desc>
+	</Feature> 
+	<Feature Name="LGDX_A11" Type="Backstory">
+		<DisplayName>先天德灵根</DisplayName>
+		<Desc>天道显化的灵根，功德越高，战力越高</Desc>
+	</Feature> 
+	<Feature Name="LGDX_A12" Type="Backstory">
+		<DisplayName>先天全灵根</DisplayName>
+		<Desc>天道显化的灵根，全元素35%亲和</Desc>
+	</Feature> 
+	<Feature Name="LGDX_A13" Type="Backstory">
+		<DisplayName>先天符灵根</DisplayName>
+		<Desc>天道显化的灵根，天生可使用六符</Desc>
+	</Feature> 
+	<Feature Name="LGDX_A14" Type="Backstory">
+		<DisplayName>先天御灵根</DisplayName>
+		<Desc>天道显化的灵根，天生可御六器</Desc>
+	</Feature> 
+	<Feature Name="LGDX_A15" Type="Backstory">
+		<DisplayName>先天法灵根</DisplayName>
+		<Desc>天道显化的灵根，天生可使用术法元灵</Desc>
+	</Feature> 
+	<Feature Name="LGDX_A16" Type="Backstory">
+		<DisplayName>先天恒灵根</DisplayName>
+		<Desc>天道显化的灵根，几乎不死不灭</Desc>
+	</Feature> 
+	<Feature Name="LGDX_A17" Type="Backstory">
+		<DisplayName>先天神灵根</DisplayName>
+		<Desc>天道显化的灵根，分神六十四</Desc>
+	</Feature> 
+	<Feature Name="LGDX_A18" Type="Backstory">
+		<DisplayName>天下剑主道</DisplayName>
+		<Desc>人间极致，天下剑主，剑仙之天道化身。觉醒时会毁灭其他所有拥有20级御剑等级的内门弟子。但此生几乎不会受到法宝攻击之外的伤害。</Desc>
+	</Feature> 
+	<Feature Name="LGDX_A19" Type="Backstory">
+		<DisplayName>万法之源祖</DisplayName>
+		<Desc>人间极致，万法之源，练气士之天道化身。觉醒时会毁灭其他所有拥有20级术法等级的内门弟子。但此生几乎不会受到术法攻击之外的伤害。</Desc>
+	</Feature> 
+	<Feature Name="LGDX_A20" Type="Backstory">
+		<DisplayName>苍天在上魂</DisplayName>
+		<Desc>人间极致，苍天在上，武夫之天道化身。觉醒时会毁灭其他所有炼体的内门弟子。但此生几乎不会受到体修攻击之外的伤害。</Desc>
+	</Feature> 
+	<Feature Name="LGDX_S1" Type="Backstory">
+		<DisplayName>天道空灵根</DisplayName>
+		<Desc>突破天道，改写规则的灵根，无限灵气上限，但会一直失去灵气</Desc>
+	</Feature> 
+	<Feature Name="LGDX_S2" Type="Backstory">
+		<DisplayName>天道破灵根</DisplayName>
+		<Desc>突破天道，改写规则的灵根，觉醒时会将存档类型改变（比如真仙变普通）</Desc>
+	</Feature> 
+</List></FeatureDefs>
