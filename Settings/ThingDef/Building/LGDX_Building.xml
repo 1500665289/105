@@ -1,6 +1,6 @@
-﻿<ThingDefs><List>
+<ThingDefs><List>
 	
-	<ThingDef Type="Building" Name="TJHYT" Parent="Building_WanDaoZunFaZuo">
+	<ThingDef Type="Building" Name="TJHYT" Parent="Build_VirtualDoor">
 	<ThingName>太极混元台</ThingName>	
 	<Desc>远古人族至宝，可以让纯血人族觉醒先天灵根，在十万年前那场大战中失踪。</Desc>
 	<TexPath>res\Sprs\building_zhengfatianxia\building_wandaozunfazuo01</TexPath>
